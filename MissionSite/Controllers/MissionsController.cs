@@ -28,6 +28,7 @@ namespace MissionSite.Controllers
             return View();
         }
         //this is me practicing comments
+        //This form will need more work once we submit info from the form, right now it is a reset form
         [HttpPost]
         public ActionResult FAQAnswers(FormCollection form)
         {
