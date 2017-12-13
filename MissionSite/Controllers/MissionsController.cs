@@ -28,8 +28,9 @@ namespace MissionSite.Controllers
             ViewBag.Language = Language;
             return View();
         }
-
-        [HttpPost]//http post method to get the form
+        //this is me practicing comments
+        //This form will need more work once we submit info from the form, right now it is a reset form
+        [HttpPost]
         public ActionResult FAQAnswers(FormCollection form)
         {
             // String reply = form["New Reply"].ToString();
